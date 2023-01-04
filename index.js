@@ -24,21 +24,33 @@ Do you follow it, or continue on your path?`)
        
          if(seventhAnswer === "ladder"){
             let eightAnswer = window.prompt  (`After ascending a few feet up the ladder, one of its rungs snaps, and you comedically fall through each of the rungs below. Sheepish, you return home.`)
-        }
-        }
-        
-        }
-        }
+         }
+         } 
+         }
+         }
      }
    
-
 }
 
-    }
- else if(firstAnswer === 'right') {
+ 
+    else if(firstAnswer === 'right') {
     let secondAnswer = window.prompt(`You come across a snoring dragon. 
-On the other side of him, you see a shiny chest of treasure. Another path would 
-lead you away from the dragon altogether. Which path do you take?`)
+    On the other side of him, you see a shiny chest of treasure. Another path would 
+    lead you away from the dragon altogether. Which path do you take?`)
 
+    if(thirdAnswer === "past the dragon"){
+    let fourthAnswer = window.prompt(`The dragon wakes up and sits upright. You only have a moment to respond, to stay or run:`)
+    
+    if(fourthAnswer === "stay"){
+    let fifthAnswer =window.prompt(`You and the dragon have an uplifting conversation about local politics and become lifelong friends.`)
+  
+    if(fifthAnswer === "run"){
+        let sixthAnswer= window.prompt(`Quickly, you run back to the cave's entrance. Sheepish, you return home.`)
+    }
+
+        
+}
+}
 }
 
+}
