@@ -32,7 +32,7 @@ Do you follow it, or continue on your path?`)
    
 }
 
- 
+}
     else if(firstAnswer === 'right') {
     let secondAnswer = window.prompt(`You come across a snoring dragon. 
     On the other side of him, you see a shiny chest of treasure. Another path would 
@@ -46,11 +46,24 @@ Do you follow it, or continue on your path?`)
   
     if(fifthAnswer === "run"){
         let sixthAnswer= window.prompt(`Quickly, you run back to the cave's entrance. Sheepish, you return home.`)
+   
+     if(sixthAnswer === "Away from the dragon"){
+        let seventhAnswer= window.prompt(`After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do?`)
+     
+     if(seventhAnswer === "Draw It"){
+        let eightAnswer = window.prompt(`You draw the flower, capturing only a fraction of its beauty with your quill. You bring the drawing home, somewhat disappointed, but over time, discover joy in sharing it with your friends and family, recounting the story of your days as a sorcerer with the aid of the sketch.`)
+     
+        if( eightAnswer === "Pick it"){
+            console.log(`You pick the flower and bring it home, and all marvel at its brilliance. However, over time it fades and eventually crumbles to dust.`)
+        }
+    
+    }
+    
+    }
     }
 
-        
+
 }
 }
 }
 
-}
