@@ -42,7 +42,7 @@ Do you follow it, or continue on your path?`)
     let thirdAnswer = window.prompt(`The dragon wakes up and sits upright. You only have a moment to respond, to stay or run:`)
     
     if(thirdAnswer === "stay"){
-    let fourthAnswer =window.prompt(`You and the dragon have an uplifting conversation about local politics and become lifelong friends.`)
+    let fourthAnswer = window.prompt(`You and the dragon have an uplifting conversation about local politics and become lifelong friends.`)
   
         if(fourthAnswer === "Away from the dragon"){
         let fifthAnswer= window.prompt(`After walking a while longer, you come across a shiny blue flower. It is so beautiful that you decide you must either draw it or pick it. Which do you do?`)
